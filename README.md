@@ -38,27 +38,6 @@ The model is evaluated on unseen financial news and then applied to thousands of
 ![Finance](https://img.shields.io/badge/Domain-Financial%20News-blue?style=flat-square)
 ![Inference](https://img.shields.io/badge/Inference-5000%2B%20Headlines-success?style=flat-square)
 
-## Repository Structure
-financial-news-sentiment-analysis-xlnet/
-│
-├── data/
-│   ├── all_data_no_labels.csv
-│   ├── Financial Phrasebank data
-│
-├── models/
-│   └── fine_tuned_xlnet_financial_sentiment/
-│
-├── notebooks/
-│   └── XLNet Financial News Sentiment Analysis.ipynb
-│
-├── outputs/
-│   ├── classified_headlines.csv
-│   ├── sentiment_distribution.png
-│
-├── requirements.txt
-│
-└── README.md
-
 ## Dataset
 Financial PhraseBank
 The dataset contains financial news sentences manually labeled by financial experts.
@@ -123,3 +102,20 @@ Save Model
 Predict Unseen Headlines
         ↓
 Visualization
+
+
+## Sentiment Distribution and Model Confidence
+
+![Sentiment Distribution](main/sentiment_distribution_XLNet.png)
+![Model Confidence](main/model_confidence_distribution.png)
+
+- Developed a Financial News Sentiment Analyzer using XLNet and Hugging Face Transformers, achieving 96.9% test accuracy on the Financial PhraseBank dataset and performing large-scale inference on 5,000+ financial news headlines.
+
+
+## Author: 
+
+✨ Charleen ✨  
+
+- QA / Regulatory Radiopharmacist, exploring AI and machine learning applications  
+- Building foundational NLP and data science projects to develop technical expertise  
+- Focused on applying AI to real-world healthcare and regulatory systems
