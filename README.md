@@ -37,7 +37,7 @@ The model is evaluated on unseen financial news and then applied to thousands of
 ![Transformer](https://img.shields.io/badge/Architecture-XLNet-purple?style=flat-square)
 ![Finance](https://img.shields.io/badge/Domain-Financial%20News-blue?style=flat-square)
 ![Inference](https://img.shields.io/badge/Inference-5000%2B%20Headlines-success?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+
 
 ## Dataset
 Financial PhraseBank
