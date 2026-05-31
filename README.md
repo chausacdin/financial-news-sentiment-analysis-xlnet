@@ -1,4 +1,14 @@
 # Financial News Sentiment Analysis using XLNet
+![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
+![XLNet](https://img.shields.io/badge/XLNet-Transformer-purple?style=for-the-badge)
+![HuggingFace](https://img.shields.io/badge/Hugging%20Face-Transformers-yellow?style=for-the-badge&logo=huggingface)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red?style=for-the-badge&logo=pytorch)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-f7931e?style=for-the-badge&logo=scikitlearn)
+![Accuracy](https://img.shields.io/badge/Accuracy-96.9%25-brightgreen?style=for-the-badge)
+![Dataset](https://img.shields.io/badge/Dataset-Financial%20PhraseBank-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
 ## Description
 This project fine-tunes XLNet on the Financial PhraseBank dataset to classify financial news headlines into:
