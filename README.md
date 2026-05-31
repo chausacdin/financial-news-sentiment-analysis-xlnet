@@ -26,6 +26,19 @@ The model is evaluated on unseen financial news and then applied to thousands of
 - Matplotlib
 - Scikit-learn
 
+## Project Highlights
+- Fine-tuned XLNet Transformer Model
+- Achieved 96.9% Test Accuracy
+- Classified 5000+ Unseen Financial Headlines
+- Generated Sentiment Visualization using Matplotlib
+- Built with HuggingFace Transformers and Pytorch
+
+![NLP](https://img.shields.io/badge/NLP-Sentiment%20Analysis-green?style=flat-square)
+![Transformer](https://img.shields.io/badge/Architecture-XLNet-purple?style=flat-square)
+![Finance](https://img.shields.io/badge/Domain-Financial%20News-blue?style=flat-square)
+![Inference](https://img.shields.io/badge/Inference-5000%2B%20Headlines-success?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+
 ## Dataset
 Financial PhraseBank
 The dataset contains financial news sentences manually labeled by financial experts.
