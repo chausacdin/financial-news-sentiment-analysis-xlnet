@@ -1,0 +1,12 @@
+torch
+transformers
+datasets
+sentencepiece
+protobuf
+accelerate
+evaluate
+scikit-learn
+pandas
+numpy
+matplotlib
+jupyter
