@@ -106,7 +106,7 @@ Visualization
 
 ## Sentiment Distribution and Model Confidence
 
-![Sentiment Distribution](outputs/sentiment_distribution_XLNet.png)
+![Sentiment Distribution](outputs/sentiment_distribution_XLnet.png)
 ![Model Confidence](outputs/model_confidence_distribution.png)
 
 - Developed a Financial News Sentiment Analyzer using XLNet and Hugging Face Transformers, achieving 96.9% test accuracy on the Financial PhraseBank dataset and performing large-scale inference on 5,000+ financial news headlines.
