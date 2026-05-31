@@ -106,11 +106,21 @@ Visualization
 
 ## Sentiment Distribution and Model Confidence
 
-![Sentiment Distribution](main/sentiment_distribution_XLNet.png)
-![Model Confidence](main/model_confidence_distribution.png)
+![Sentiment Distribution](outputs/sentiment_distribution_XLNet.png)
+![Model Confidence](outputs/model_confidence_distribution.png)
 
 - Developed a Financial News Sentiment Analyzer using XLNet and Hugging Face Transformers, achieving 96.9% test accuracy on the Financial PhraseBank dataset and performing large-scale inference on 5,000+ financial news headlines.
 
+## How to Run
+1. pip install -r requirements.txt
+2. Open and Run:
+   XLNet Financial News Sentiment Analysis.ipynb
+
+## Future Improvements
+- Compare XLNet against FinBERT and BERT
+- Build a Streamlit web application
+- Integrate real-time financial news
+- Analyze the relationship between sentiment and stock prices
 
 ## Author: 
 
