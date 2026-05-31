@@ -38,6 +38,26 @@ The model is evaluated on unseen financial news and then applied to thousands of
 ![Finance](https://img.shields.io/badge/Domain-Financial%20News-blue?style=flat-square)
 ![Inference](https://img.shields.io/badge/Inference-5000%2B%20Headlines-success?style=flat-square)
 
+## Repository Structure
+financial-news-sentiment-analysis-xlnet/
+│
+├── data/
+│   ├── all_data_no_labels.csv
+│   ├── Financial Phrasebank data
+│
+├── models/
+│   └── fine_tuned_xlnet_financial_sentiment/
+│
+├── notebooks/
+│   └── XLNet Financial News Sentiment Analysis.ipynb
+│
+├── outputs/
+│   ├── classified_headlines.csv
+│   ├── sentiment_distribution.png
+│
+├── requirements.txt
+│
+└── README.md
 
 ## Dataset
 Financial PhraseBank
@@ -86,3 +106,20 @@ Headline:
 
 Prediction:
 Neutral (95%)
+
+## Workflow
+Financial PhraseBank
+        ↓
+Data Preprocessing
+        ↓
+XLNet Tokenization
+        ↓
+Fine-Tuning
+        ↓
+Evaluation
+        ↓
+Save Model
+        ↓
+Predict Unseen Headlines
+        ↓
+Visualization
